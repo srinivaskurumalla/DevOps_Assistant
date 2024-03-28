@@ -1,0 +1,60 @@
+<mat-nav-list class="sidebar">
+
+  <mat-list>
+    <mat-list-item [routerLink]="['/feature/config']" routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }">
+      Configuration Management
+    </mat-list-item>
+  </mat-list>
+
+  <mat-list>
+    <mat-list-item [routerLink]="['/feature/ci']" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+      Continuous Integration
+    </mat-list-item>
+  </mat-list>
+
+
+  <mat-list>
+    <mat-list-item [routerLink]="['/feature/cat']" routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }">
+      Continuous Automated Testing
+    </mat-list-item>
+  </mat-list>
+  <mat-list>
+    <mat-list-item [routerLink]="['/feature/iac']" routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }">
+      Infrastructure as code </mat-list-item>
+  </mat-list>
+
+  <mat-list>
+    <mat-list-item [routerLink]="['/feature/cdd']" routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }">
+      Cont Delivery & Deployment
+    </mat-list-item>
+  </mat-list>
+
+  <mat-list>
+    <mat-list-item [routerLink]="['/feature/cm']" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+      Continuous Monitoring
+    </mat-list-item>
+  </mat-list>
+
+  <mat-list>
+    <mat-list-item [routerLink]="['/feature/cs']" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+      Continuous Security
+    </mat-list-item>
+  </mat-list>
+  <mat-list>
+    <mat-list-item [routerLink]="['/feature/pdf-download']" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+      Download
+    </mat-list-item>
+  </mat-list>
+  <mat-list>
+    <mat-list-item [routerLink]="['/feature/dashboard']" routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }">
+      Dashboard
+    </mat-list-item>
+  </mat-list>
+
+
+</mat-nav-list>
